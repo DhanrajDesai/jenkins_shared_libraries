@@ -1,4 +1,4 @@
-def clone(string url,string branch){
+def clone(String url,String branch){
   echo "cloning code"
   git branch: "${branch}", url: "${url}"
 
